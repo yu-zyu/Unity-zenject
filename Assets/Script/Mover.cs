@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,29 +14,29 @@ class Mover : MonoBehaviour
         var inputVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         var isDash = Input.GetButton("Dash");
 
-        // ˆÚ“®
+        // ç§»å‹•
         Move(inputVector, isDash);
     }
 
     /// <summary>
-    /// ƒWƒƒƒ“ƒv‚·‚é
+    /// ã‚¸ãƒ£ãƒ³ãƒ—ã™ã‚‹
     /// </summary>
     void Jump()
     {
         /*
-         * È—ª 
+         * çœç•¥ 
          */
     }
 
     /// <summary>
-    /// ˆÚ“®‚·‚é
+    /// ç§»å‹•ã™ã‚‹
     /// </summary>
-    /// <param name="direction">ˆÚ“®•ûŒü</param>
-    /// <param name="isDash">ƒ_ƒbƒVƒ…‚·‚é‚©</param>
+    /// <param name="direction">ç§»å‹•æ–¹å‘</param>
+    /// <param name="isDash">ãƒ€ãƒƒã‚·ãƒ¥ã™ã‚‹ã‹</param>
     void Move(Vector3 direction, bool isDash)
     {
         /*
-         * È—ª 
+         * çœç•¥ 
          */
     }
 }
